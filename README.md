@@ -1,8 +1,75 @@
-# Blood Flow Simulation Using ANSYS Fluent
+# CFD Simulation of Blood Flow Through a Severely Stenosed Artery
 
-A CFD simulation of blood flow through a stenosed artery performed using ANSYS Fluent.
+## Project Overview
 
-## Simulation Result
+This project presents selected computational fluid dynamics (CFD) visualizations of blood flow through a severely stenosed artery. The simulation was performed using **ANSYS Fluent** based on the **Finite Volume Method (FVM)** to investigate the flow characteristics within and downstream of the stenotic region.
 
+The repository presents selected results for a **90% arterial stenosis** as a demonstration of CFD modeling, numerical simulation, and post-processing capabilities. Detailed quantitative results, comparisons among different stenosis severities, and other research findings are not included as they are part of ongoing research work.
 
+## Computational Approach
 
+* **CFD solver:** ANSYS Fluent
+* **Numerical method:** Finite Volume Method (FVM)
+* **Flow:** Blood flow through an arterial stenosis
+* **Blood model:** Non-Newtonian
+* **Case presented:** 90% stenosis
+* **Post-processing:** Velocity, pressure, velocity vectors, streamlines, wall shear stress, and artery geometry
+
+## Selected Simulation Visualizations
+
+### Artery Geometry
+
+The 3D model of the stenosed artery showing the 90% narrowing in the vessel lumen and computational domain.
+
+![Artery Geometry — 90% Stenosis](images/Artery.png)
+
+### Velocity Contour
+
+The velocity contour illustrates the spatial distribution of flow velocity within the stenosed artery, showing acceleration through the narrowed region.
+
+![Velocity Contour — 90% Stenosis](images/Velocity%20Contour.png)
+
+### Velocity Vector Field
+
+The velocity vectors provide a visualization of the local flow direction and magnitude throughout the arterial domain.
+
+![Velocity Vector Field — 90% Stenosis](images/Velocity%20Vector.png)
+
+### Pressure Contour
+
+The pressure contour presents the computed pressure field throughout the arterial domain, demonstrating the pressure drop across the stenotic region.
+
+![Pressure Contour — 90% Stenosis](images/Pressure%20Contour.png)
+
+### Wall Shear Stress (WSS) Contour
+
+The wall shear stress distribution illustrates the variation of shear loading along the arterial wall, highlighting regions of elevated stress concentration at and downstream of the stenosis.
+
+![Wall Shear Stress — 90% Stenosis](images/WSS%20Contour.png)
+
+### Streamlines
+
+The streamlines illustrate the overall flow pattern through the stenotic region and downstream of the constriction, revealing flow separation and recirculation zones.
+
+![Streamlines — 90% Stenosis](images/Streamline.png)
+
+## Key Hemodynamic Findings
+
+* **Flow Acceleration:** Significant velocity increase through the stenosed section
+* **Pressure Drop:** Substantial pressure reduction across the 90% stenosis
+* **Wall Shear Stress:** Elevated WSS in the stenosis region with potential for endothelial dysfunction
+* **Recirculation Zones:** Formation of vortices and flow separation downstream of the stenosis
+* **Complex Flow Patterns:** Non-Newtonian blood behavior influences local hemodynamic conditions
+
+## Clinical Significance
+
+These CFD visualizations demonstrate the complex hemodynamic environment created by severe arterial stenosis, which is relevant to:
+- Clinical diagnosis and risk assessment
+- Interventional treatment planning
+- Stent and scaffold design optimization
+- Thrombotic risk evaluation
+- Endothelial dysfunction research
+
+## Note
+
+This repository presents selected visualizations from an ongoing research project. Detailed quantitative results, comparative analyses, and other research findings are reserved for the associated research publication.
