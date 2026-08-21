@@ -22,7 +22,7 @@ The repository presents selected results for a **90% arterial stenosis** as a de
 
 The 3D model of the stenosed artery illustrating the 90% narrowing in the vessel lumen and the complete computational domain. The geometry captures the arterial structure with the stenotic constriction.
 
-![Artery Geometry — 90% Stenosis](images/Artery_Geometry.png)
+![Artery Geometry — 90% Stenosis](images/Artery.png)
 
 ### Artery Mesh
 
