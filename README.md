@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This project presents selected computational fluid dynamics (CFD) visualizations of pulsatile blood flow through a severely stenosed artery. The simulation was performed using **ANSYS Fluent** based on the **Finite Volume Method (FVM)** to investigate the flow characteristics within and downstream of the stenotic region.
+This project presents selected computational fluid dynamics (CFD) visualizations of pulsatile blood flow through a severely stenosed artery. The simulation was performed using **ANSYS Fluent** based on hemodynamic principles and computational modeling techniques.
 
-The repository presents selected results for a **90% arterial stenosis** as a demonstration of CFD modeling, numerical simulation, and post-processing capabilities. Detailed quantitative results, comparisons among different stenosis severities, and other research findings are not included as they are part of ongoing research work.
+The repository presents selected results for a **90% arterial stenosis** as a demonstration of CFD modeling, numerical simulation, and post-processing capabilities. Detailed quantitative results, comparative analyses, and comprehensive research findings are reserved for associated publications and research documentation.
 
 ## Computational Approach
 
@@ -16,13 +16,38 @@ The repository presents selected results for a **90% arterial stenosis** as a de
 * **Case presented:** 90% stenosis
 * **Post-processing:** Velocity, pressure, velocity vectors, streamlines, wall shear stress, and artery geometry
 
-## Selected Simulation Visualizations
+## Geometry and Mesh
 
 ### Artery Geometry
 
-The 3D model of the stenosed artery showing the 90% narrowing in the vessel lumen and computational domain.
+The 3D model of the stenosed artery illustrating the 90% narrowing in the vessel lumen and the complete computational domain. The geometry captures the arterial structure with the stenotic constriction, inlet, and outlet regions used for hemodynamic analysis.
 
-![Artery Geometry — 90% Stenosis](images/Artery.png)
+![Artery Geometry — 90% Stenosis](images/Artery_Geometry.png)
+
+### Artery Mesh
+
+The computational mesh generated for the finite volume discretization of the stenosed artery domain employs a structured hexahedral approach optimized for accurate hemodynamic analysis.
+
+![Artery Mesh — 90% Stenosis](images/Artery_Mesh.png)
+
+**Meshing Specifications:**
+
+* **Element Type:** Hexahedral elements
+* **Meshing Method:** Sweep method along the axial direction of the vessel
+* **Inflation Layers:** Maximum 15 layers with growth rate = 1.1 to resolve boundary layer effects and wall shear stress variations
+
+**Mesh Sizing:**
+* **Global element size:** 0.15 mm
+* **Local refinement:** Sphere of influence radius = 2.5 mm with local element size = 0.05 mm at the stenosis region to accurately capture high velocity gradients and flow separation
+* **Coarser mesh spacing** in the straight upstream and downstream sections to reduce computational cost where flow gradients are more uniform
+
+**Mesh Quality Metrics:**
+* **Skewness:** < 0.6 (high-quality elements)
+* **Orthogonal Quality:** > 0.2 (ensures convergence and stability in simulations)
+
+These quality metrics ensure robust numerical solutions and minimize numerical errors in the CFD analysis.
+
+## Selected Simulation Visualizations
 
 ### Velocity Contour
 
@@ -73,4 +98,4 @@ These CFD visualizations demonstrate the complex hemodynamic environment created
 
 ## Note
 
-This repository presents selected visualizations from an ongoing research project. Detailed quantitative results, comparative analyses, and other research findings are reserved for the associated research publication.
+This repository presents selected visualizations from an ongoing research project. Detailed quantitative results, comparative analyses, and other research findings are reserved for the associated publications and research documentation.
