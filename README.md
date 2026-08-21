@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project presents selected computational fluid dynamics (CFD) visualizations of blood flow through a severely stenosed artery. The simulation was performed using **ANSYS Fluent** based on the **Finite Volume Method (FVM)** to investigate the flow characteristics within and downstream of the stenotic region.
+This project presents selected computational fluid dynamics (CFD) visualizations of pulsatile blood flow through a severely stenosed artery. The simulation was performed using **ANSYS Fluent** based on the **Finite Volume Method (FVM)** to investigate the flow characteristics within and downstream of the stenotic region.
 
 The repository presents selected results for a **90% arterial stenosis** as a demonstration of CFD modeling, numerical simulation, and post-processing capabilities. Detailed quantitative results, comparisons among different stenosis severities, and other research findings are not included as they are part of ongoing research work.
 
@@ -10,8 +10,9 @@ The repository presents selected results for a **90% arterial stenosis** as a de
 
 * **CFD solver:** ANSYS Fluent
 * **Numerical method:** Finite Volume Method (FVM)
-* **Flow:** Blood flow through an arterial stenosis
-* **Blood model:** Non-Newtonian
+* **Flow:** Pulsatile Blood flow through an arterial stenosis
+* **Blood model:** Carreau (Non-Newtonian)
+* **Governing Equation:** RANS (Reynolds-Averaged Navier–Stokes)
 * **Case presented:** 90% stenosis
 * **Post-processing:** Velocity, pressure, velocity vectors, streamlines, wall shear stress, and artery geometry
 
