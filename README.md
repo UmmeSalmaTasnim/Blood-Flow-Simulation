@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This project presents selected computational fluid dynamics (CFD) visualizations of pulsatile blood flow through a severely stenosed artery. The simulation was performed using **ANSYS Fluent** based on hemodynamic principles and computational modeling techniques.
+This project presents selected computational fluid dynamics (CFD) visualizations of pulsatile blood flow through a severely stenosed artery. The simulation was performed using **ANSYS Fluent** based on established hemodynamic modeling principles.
 
-The repository presents selected results for a **90% arterial stenosis** as a demonstration of CFD modeling, numerical simulation, and post-processing capabilities. Detailed quantitative results, comparative analyses, and comprehensive research findings are reserved for associated publications and research documentation.
+The repository presents selected results for a **90% arterial stenosis** as a demonstration of CFD modeling, numerical simulation, and post-processing capabilities. Detailed quantitative results, comparative analyses, and other research findings are reserved for the associated publications.
 
 ## Computational Approach
 
@@ -20,7 +20,7 @@ The repository presents selected results for a **90% arterial stenosis** as a de
 
 ### Artery Geometry
 
-The 3D model of the stenosed artery illustrating the 90% narrowing in the vessel lumen and the complete computational domain. The geometry captures the arterial structure with the stenotic constriction, inlet, and outlet regions used for hemodynamic analysis.
+The 3D model of the stenosed artery illustrating the 90% narrowing in the vessel lumen and the complete computational domain. The geometry captures the arterial structure with the stenotic constriction.
 
 ![Artery Geometry — 90% Stenosis](images/Artery_Geometry.png)
 
@@ -42,8 +42,8 @@ The computational mesh generated for the finite volume discretization of the ste
 * **Coarser mesh spacing** in the straight upstream and downstream sections to reduce computational cost where flow gradients are more uniform
 
 **Mesh Quality Metrics:**
-* **Skewness:** < 0.6 (high-quality elements)
-* **Orthogonal Quality:** > 0.2 (ensures convergence and stability in simulations)
+* **Skewness:** < 0.58 (high-quality elements)
+* **Orthogonal Quality:** > 0.588 (ensures convergence and stability in simulations)
 
 These quality metrics ensure robust numerical solutions and minimize numerical errors in the CFD analysis.
 
@@ -98,4 +98,4 @@ These CFD visualizations demonstrate the complex hemodynamic environment created
 
 ## Note
 
-This repository presents selected visualizations from an ongoing research project. Detailed quantitative results, comparative analyses, and other research findings are reserved for the associated publications and research documentation.
+This repository presents selected visualizations from an ongoing research project. Detailed quantitative results, comparative analyses, and other research findings are reserved for the associated publications.
