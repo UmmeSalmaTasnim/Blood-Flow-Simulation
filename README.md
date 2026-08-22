@@ -2,11 +2,11 @@
 
 ## Project Overview
 
-This project presents selected computational fluid dynamics (CFD) visualizations of pulsatile blood flow through a severely stenosed artery (90%). The simulation was performed using **ANSYS Fluent** based on a non-Newtonian blood model (Carreau model) and RANS turbulence modeling.
+This project presents selected computational fluid dynamics (CFD) visualizations of pulsatile blood flow through a severely stenosed artery (90%). The simulation was performed using **ANSYS Fluent*[...]
 
 ## Motivation
 
-**Arterial stenosis** is the narrowing of an artery that restricts blood flow and alters the normal hemodynamic behavior of blood. In this study, an **axisymmetric artery** is considered to investigate how arterial narrowing affects blood flow characteristics. Severe stenosis can reduce downstream blood supply and increase the risk of serious cardiovascular or cerebrovascular complications, including heart attack and stroke. Therefore, understanding the hemodynamic effects of arterial stenosis is essential for analyzing changes in **blood flow characteristics**.
+**Arterial stenosis** is the narrowing of an artery that restricts blood flow and alters the normal hemodynamic behavior of blood. In this study, an **axisymmetric artery** is considered to investi[...]
 
 ## Purpose
 
@@ -28,7 +28,7 @@ This project presents selected computational fluid dynamics (CFD) visualizations
 
 ### Artery Geometry
 
-The 3D model of the stenosed artery illustrating the 90% narrowing in the vessel lumen and the complete computational domain. The geometry captures the arterial structure with the stenotic constriction.
+The 3D model of the stenosed artery illustrating the 90% narrowing in the vessel lumen and the complete computational domain. The geometry captures the arterial structure with the stenotic constri[...]
 
 ![Artery Geometry — 90% Stenosis](images/Artery_Geometry.png)
 
@@ -104,6 +104,12 @@ These CFD visualizations demonstrate the complex hemodynamic environment created
 - Thrombotic risk evaluation
 - Endothelial dysfunction research
 
+## Grid Independence Test
+
+A grid independence (mesh convergence) test was performed to verify that the computed velocity field is insensitive to further mesh refinement. The attached image `images/Grid_independence_Test_75%_Stenosis.png` shows the comparison of velocity results between the coarse and fine meshes for a 75% stenosed artery. The same mesh design and refinement strategy were applied to the 90% stenosis case presented in this repository, and the test demonstrated that the velocity change is negligible when using the finer mesh. Therefore, the selected mesh configuration is considered grid-independent and appropriate for the presented simulations.
+
+![Grid Independence Test — 75% Stenosis](images/Grid_independence_Test_75%_Stenosis.png)
+
 ## Note
 
-This repository presents selected visualizations from an ongoing research project. Detailed quantitative results, comparative analyses, and other research findings are reserved for the associated publications.
+This repository presents selected visualizations from an ongoing research project. Detailed quantitative results, comparative analyses, and other research findings are reserved for the associated publ[...]
