@@ -103,28 +103,43 @@ Streamline patterns are evaluated at key axial cross-sections relative to the st
 
 ##### Streamline Patterns Across Axial Positions
 
-Below are the streamline visualizations arranged in a $2 \times 2$ cross-sectional grid:
+# Stenosis Flow Streamline Analysis
 
+This repository contains numerical and visual analyses of fluid flow through a vessel stenosis. Streamline patterns are evaluated at key axial cross-sections relative to the stenosis neck origin ($z = 0$).
+
+---
+
+## Model Geometry & Reference Parameters
+
+- **Vessel Diameter ($D$):** $20\text{ mm}$
+- **Origin ($0\text{D}$):** Stenosis Neck ($z = 0\text{ mm}$)
+- **Upstream Reference ($-1\text{D}$):** $z = -20\text{ mm}$
+- **Downstream Reference ($1\text{D}$):** $z = +20\text{ mm}$
+- **Far Downstream Reference ($5\text{D}$):** $z = +100\text{ mm}$
+
+---
+
+## Streamline Patterns Across Axial Positions
 <table>
   <tr>
-    <td align="center" width="50%">
+    <td align="center" width="50%" bgcolor="#ffffff">
       <img src="images/Streamline_(-1D).png" alt="-1D Streamline Pattern" width="100%"><br>
       <b>-1D (-20 mm)</b><br>
       <i>Upstream Flow</i>
     </td>
-    <td align="center" width="50%">
+    <td align="center" width="50%" bgcolor="#ffffff">
       <img src="images/Streamline_0D.png" alt="0D Streamline Pattern" width="100%"><br>
       <b>0D (0 mm)</b><br>
       <i>Stenosis Neck</i>
     </td>
   </tr>
   <tr>
-    <td align="center" width="50%">
+    <td align="center" width="50%" bgcolor="#ffffff">
       <img src="images/Streamline_(1D).png" alt="1D Streamline Pattern" width="100%"><br>
       <b>1D (+20 mm)</b><br>
       <i>Downstream Recirculation</i>
     </td>
-    <td align="center" width="50%">
+    <td align="center" width="50%" bgcolor="#ffffff">
       <img src="images/Streamline_(5D).png" alt="5D Streamline Pattern" width="100%"><br>
       <b>5D (+100 mm)</b><br>
       <i>Far Downstream Recovery</i>
@@ -132,6 +147,7 @@ Below are the streamline visualizations arranged in a $2 \times 2$ cross-section
   </tr>
 </table>
 
+## Repository Structure
 ## Key Hemodynamic Findings
 
 * **Flow Acceleration:** Significant velocity increase through the stenosed section
