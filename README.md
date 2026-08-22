@@ -2,9 +2,19 @@
 
 ## Project Overview
 
-This project presents selected computational fluid dynamics (CFD) visualizations of pulsatile blood flow through a severely stenosed artery. The simulation was performed using **ANSYS Fluent** based on established hemodynamic modeling principles.
+This project presents selected computational fluid dynamics (CFD) visualizations of pulsatile blood flow through a severely stenosed artery. The simulation was performed using **ANSYS Fluent** based on a non-Newtonian blood model (Carreau model) and RANS turbulence modeling.
 
-The repository presents selected results for a **90% arterial stenosis** as a demonstration of CFD modeling, numerical simulation, and post-processing capabilities. Detailed quantitative results, comparative analyses, and other research findings are reserved for the associated publications.
+The repository presents selected results for a **90% arterial stenosis** as a demonstration of CFD modeling, numerical simulation, and post-processing capabilities. Detailed quantitative results, comparative analyses, and additional research findings are reserved for the associated publications.
+
+## Motivation
+
+**Arterial stenosis** is the narrowing of an artery that restricts blood flow and alters the normal hemodynamic behavior of blood. In this study, an **axisymmetric artery** is considered to investigate how arterial narrowing affects blood flow characteristics. Severe stenosis can reduce downstream blood supply and increase the risk of serious cardiovascular or cerebrovascular complications, including heart attack and stroke. Therefore, understanding the hemodynamic effects of arterial stenosis is essential for analyzing changes in **blood flow characteristics**.
+
+## Purpose
+
+* To understand the characteristics of blood flow in a **healthy, asymptomatic axisymmetric artery**.
+* To investigate how blood-flow behavior changes with **different degrees of arterial area reduction (stenosis severity)**.
+* To examine the hemodynamic consequences of severe stenosis and understand the role of **bypass procedures in restoring or improving blood flow**.
 
 ## Computational Approach
 
