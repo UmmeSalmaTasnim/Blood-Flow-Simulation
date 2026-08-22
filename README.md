@@ -119,12 +119,12 @@ Below are the streamline visualizations arranged in a $2 \times 2$ cross-section
     </td>
   </tr>
   <tr>
-    <td align="center" width="50%" style="background-color: white;">
+    <td align="center" width="50%">
       <img src="images/Streamline_(1D).png" alt="1D Streamline Pattern" width="100%"><br>
       <b>1D (+20 mm)</b><br>
       <i>Downstream Recirculation</i>
     </td>
-    <td align="center" width="50%" style="background-color: white;">
+    <td align="center" width="50%">
       <img src="images/Streamline_(5D).png" alt="5D Streamline Pattern" width="100%"><br>
       <b>5D (+100 mm)</b><br>
       <i>Far Downstream Recovery</i>
