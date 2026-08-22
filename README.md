@@ -4,11 +4,11 @@
 
 This project presents selected computational fluid dynamics (CFD) visualizations of pulsatile blood flow through a severely stenosed artery. The simulation was performed using **ANSYS Fluent** base[...]
 
-The repository presents selected results for a **90% arterial stenosis** as a demonstration of CFD modeling, numerical simulation, and post-processing capabilities. Detailed quantitative results, comp[...]
+The repository presents selected results for a **90% arterial stenosis** as a demonstration of CFD modeling, numerical simulation, and post-processing capabilities. Detailed quantitative results, c[...]
 
 ## Motivation
 
-**Arterial stenosis** is the narrowing of an artery that restricts blood flow and alters the normal hemodynamic behavior of blood. In this study, an **axisymmetric artery** is considered to investigat[...]
+**Arterial stenosis** is the narrowing of an artery that restricts blood flow and alters the normal hemodynamic behavior of blood. In this study, an **axisymmetric artery** is considered to invest[...]
 
 ## Purpose
 
@@ -30,7 +30,7 @@ The repository presents selected results for a **90% arterial stenosis** as a de
 
 ### Artery Geometry
 
-The 3D model of the stenosed artery illustrating the 90% narrowing in the vessel lumen and the complete computational domain. The geometry captures the arterial structure with the stenotic constrictio[...]
+The 3D model of the stenosed artery illustrating the 90% narrowing in the vessel lumen and the complete computational domain. The geometry captures the arterial structure with the stenotic constri[...]
 
 ![Artery Geometry — 90% Stenosis](images/Artery_Geometry.png)
 
@@ -119,12 +119,12 @@ Below are the streamline visualizations arranged in a $2 \times 2$ cross-section
     </td>
   </tr>
   <tr>
-    <td align="center" width="50%">
+    <td align="center" width="50%" style="background-color: white;">
       <img src="images/Streamline_(1D).png" alt="1D Streamline Pattern" width="100%"><br>
       <b>1D (+20 mm)</b><br>
       <i>Downstream Recirculation</i>
     </td>
-    <td align="center" width="50%">
+    <td align="center" width="50%" style="background-color: white;">
       <img src="images/Streamline_(5D).png" alt="5D Streamline Pattern" width="100%"><br>
       <b>5D (+100 mm)</b><br>
       <i>Far Downstream Recovery</i>
@@ -151,7 +151,7 @@ These CFD visualizations demonstrate the complex hemodynamic environment created
 
 ## Note
 
-This repository presents selected visualizations from an ongoing research project. Detailed quantitative results, comparative analyses, and other research findings are reserved for the associated acad[...]
+This repository presents selected visualizations from an ongoing research project. Detailed quantitative results, comparative analyses, and other research findings are reserved for the associated[...]
 
 Please open an issue or contact the repository owner: @UmmeSalmaTasnim.
 
