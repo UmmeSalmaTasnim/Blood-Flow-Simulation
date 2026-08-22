@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains computational fluid dynamics (CFD) visualizations and supporting notes from a study of pulsatile blood flow through an axisymmetric artery with severe stenosis. The primary case presented here is a 90% area reduction (stenosis throat). Simulations were performed in ANSYS Fluent using a non-Newtonian blood model to capture physiologically relevant hemodynamic behavior.
+This repository contains computational fluid dynamics (CFD) visualizations and supporting notes from a study of pulsatile blood flow through an axisymmetric artery with severe stenosis. The primary ca[...]
 
 ## Table of Contents
 
@@ -21,7 +21,7 @@ This repository contains computational fluid dynamics (CFD) visualizations and s
 
 ## Motivation & Purpose
 
-Arterial stenosis (narrowing of the vessel lumen) substantially alters local hemodynamics and is associated with clinical problems such as ischemia, thrombosis, and endothelial dysfunction. This repository aims to:
+Arterial stenosis (narrowing of the vessel lumen) substantially alters local hemodynamics and is associated with clinical problems such as ischemia, thrombosis, and endothelial dysfunction. This repos[...]
 
 - Document and visualize blood-flow characteristics in an axisymmetric artery with varying stenosis severity.
 - Highlight how flow behavior changes with increasing area reduction.
@@ -45,7 +45,7 @@ Arterial stenosis (narrowing of the vessel lumen) substantially alters local hem
 
 ### Artery Geometry
 
-The 3D model represents an axisymmetric artery with a localized stenotic constriction (90% area reduction at the stenosis neck). The geometry and computational domain are provided in the `geometry/` folder and visualized below.
+The 3D model represents an axisymmetric artery with a localized stenotic constriction (90% area reduction at the stenosis neck). The geometry and computational domain are provided in the `geometry/` f[...]
 
 ![Artery Geometry — 90% Stenosis](images/Artery_Geometry.png)
 
@@ -110,23 +110,25 @@ Below are the streamline visualizations compared at four distinct axial position
 
 <table>
   <tr>
-    <td align="center" width="25%">
-      <img src="images/Streamline_(-1D).png" alt="-1D Streamline Pattern"><br>
+    <td align="center" width="50%">
+      <img src="images/Streamline_(-1D).png" alt="-1D Streamline Pattern" style="width:240px;height:240px;object-fit:contain;"><br>
       <b>-1D (-20 mm)</b><br>
       <i>Upstream Flow</i>
     </td>
-    <td align="center" width="25%">
-      <img src="images/Streamline_0D.png" alt="0D Streamline Pattern"><br>
+    <td align="center" width="50%">
+      <img src="images/Streamline_0D.png" alt="0D Streamline Pattern" style="width:240px;height:240px;object-fit:contain;"><br>
       <b>0D (0 mm)</b><br>
       <i>Stenosis Neck — peak acceleration</i>
     </td>
-    <td align="center" width="25%">
-      <img src="images/Streamline_(1D).png" alt="1D Streamline Pattern"><br>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="images/Streamline_(1D).png" alt="1D Streamline Pattern" style="width:240px;height:240px;object-fit:contain;"><br>
       <b>1D (+20 mm)</b><br>
       <i>Downstream Recirculation</i>
     </td>
-    <td align="center" width="25%">
-      <img src="images/Streamline_(5D).png" alt="5D Streamline Pattern"><br>
+    <td align="center" width="50%">
+      <img src="images/Streamline_(5D).png" alt="5D Streamline Pattern" style="width:240px;height:240px;object-fit:contain;"><br>
       <b>5D (+100 mm)</b><br>
       <i>Far Downstream Recovery</i>
     </td>
@@ -153,7 +155,7 @@ Observations:
 
 ## Grid Independence Test
 
-A grid independence study was conducted on a 75% stenosis case using three mesh sizes (element sizes: 0.20 mm, 0.15 mm, and a locally refined 0.10–0.05 mm). Differences in global indicators (pressure drop and peak WSS) were minor, supporting the chosen mesh strategy. The same meshing approach was applied to the 90% stenosis case.
+A grid independence study was conducted on a 75% stenosis case using three mesh sizes (element sizes: 0.20 mm, 0.15 mm, and a locally refined 0.10–0.05 mm). Differences in global indicators (pressur[...] 
 
 ![Grid Independence Test — 75% Stenosis](images/Grid_independence_Test_75_Stenosis.png)
 
