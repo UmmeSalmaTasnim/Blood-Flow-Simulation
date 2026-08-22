@@ -2,7 +2,11 @@
 
 ## Overview
 
-This repository contains computational fluid dynamics (CFD) visualizations and supporting notes from a study of pulsatile blood flow through an axisymmetric artery with severe stenosis. The primary ca[...]
+This repository contains computational fluid dynamics (CFD) visualizations and supporting notes from a study of pulsatile blood flow through an axisymmetric artery with severe stenosis. The primary objectives are to:
+
+- Document and visualize blood-flow characteristics in an axisymmetric artery with varying stenosis severity.
+- Highlight how flow behavior changes with increasing area reduction.
+- Provide illustrative results relevant to intervention planning (e.g., bypass or stent strategies) and device design.
 
 ## Table of Contents
 
@@ -21,8 +25,9 @@ This repository contains computational fluid dynamics (CFD) visualizations and s
 
 ## Motivation & Purpose
 
-Arterial stenosis (narrowing of the vessel lumen) substantially alters local hemodynamics and is associated with clinical problems such as ischemia, thrombosis, and endothelial dysfunction. This repos[...]
+Arterial stenosis (narrowing of the vessel lumen) substantially alters local hemodynamics and is associated with clinical problems such as ischemia, thrombosis, and endothelial dysfunction. This repository explores these phenomena through computational fluid dynamics.
 
+**Key objectives:**
 - Document and visualize blood-flow characteristics in an axisymmetric artery with varying stenosis severity.
 - Highlight how flow behavior changes with increasing area reduction.
 - Provide illustrative results relevant to intervention planning (e.g., bypass or stent strategies) and device design.
@@ -45,7 +50,7 @@ Arterial stenosis (narrowing of the vessel lumen) substantially alters local hem
 
 ### Artery Geometry
 
-The 3D model represents an axisymmetric artery with a localized stenotic constriction (90% area reduction at the stenosis neck). The geometry and computational domain are provided in the `geometry/` f[...]
+The 3D model represents an axisymmetric artery with a localized stenotic constriction (90% area reduction at the stenosis neck). The geometry and computational domain are provided in the `geometry/` folder.
 
 ![Artery Geometry — 90% Stenosis](images/Artery_Geometry.png)
 
@@ -155,7 +160,7 @@ Observations:
 
 ## Grid Independence Test
 
-A grid independence study was conducted on a 75% stenosis case using three mesh sizes (element sizes: 0.20 mm, 0.15 mm, and a locally refined 0.10–0.05 mm). Differences in global indicators (pressur[...] 
+A grid independence study was conducted on a 75% stenosis case using three mesh sizes (element sizes: 0.20 mm, 0.15 mm, and a locally refined 0.10–0.05 mm). Differences in global indicators (pressure drop and peak velocity) were minimal, confirming convergence.
 
 ![Grid Independence Test — 75% Stenosis](images/Grid_independence_Test_75_Stenosis.png)
 
@@ -174,7 +179,7 @@ The visualizations and analyses included here are useful for:
 
 ## Notes & Contact
 
-This repository presents selected visualizations from ongoing research. Detailed quantitative tables, simulation scripts, and raw Fluent case/results files are not included here but can be provided on request.
+This repository presents selected visualizations from ongoing research. Detailed quantitative tables, simulation scripts, and raw Fluent case/results files are not included here but can be provided upon reasonable request.
 
 Please open an issue or contact the repository owner: @UmmeSalmaTasnim.
 
