@@ -118,7 +118,7 @@ Below are the streamline visualizations compared at four distinct axial position
     <td align="center" width="25%">
       <img src="images/Streamline_0D.png" alt="0D Streamline Pattern"><br>
       <b>0D (0 mm)</b><br>
-      <i>Stenosis Neck — peak acceleration</i>
+      <i>Stenosis Neck</i>
     </td>
     <td align="center" width="25%">
       <img src="images/Streamline_(1D).png" alt="1D Streamline Pattern"><br>
