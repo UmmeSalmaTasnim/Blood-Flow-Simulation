@@ -2,9 +2,7 @@
 
 ## Project Overview
 
-This project presents selected computational fluid dynamics (CFD) visualizations of pulsatile blood flow through a severely stenosed artery. The simulation was performed using **ANSYS Fluent** based on a non-Newtonian blood model (Carreau model) and RANS turbulence modeling.
-
-The repository presents selected results for a **90% arterial stenosis** as a demonstration of CFD modeling, numerical simulation, and post-processing capabilities. Detailed quantitative results, comparative analyses, and additional research findings are reserved for the associated publications.
+This project presents selected computational fluid dynamics (CFD) visualizations of pulsatile blood flow through a severely stenosed artery (90%). The simulation was performed using **ANSYS Fluent** based on a non-Newtonian blood model (Carreau model) and RANS turbulence modeling.
 
 ## Motivation
 
@@ -12,7 +10,7 @@ The repository presents selected results for a **90% arterial stenosis** as a de
 
 ## Purpose
 
-* To understand the characteristics of blood flow in a **healthy, asymptomatic axisymmetric artery**.
+* To understand the characteristics of blood flow in a **healthy, non-stenotic axisymmetric artery**.
 * To investigate how blood-flow behavior changes with **different degrees of arterial area reduction (stenosis severity)**.
 * To examine the hemodynamic consequences of severe stenosis and understand the role of **bypass procedures in restoring or improving blood flow**.
 
