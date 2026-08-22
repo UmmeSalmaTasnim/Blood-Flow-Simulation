@@ -106,13 +106,16 @@ These CFD visualizations demonstrate the complex hemodynamic environment created
 
 ## Grid Independence Test
 
-A grid independence study was performed for a 75% stenosed artery to verify mesh convergence and ensure solution accuracy. The analysis examined velocity variations across three different element sizes to establish mesh-independent solutions. The **same meshing strategy** employed for the 75% stenosed artery has been successfully applied to the 90% stenosed artery case presented in this repository, ensuring consistent mesh quality and convergence criteria across different stenosis severities.
+A grid independence study was performed for the **75% stenosed artery** to assess the sensitivity of the numerical solution to mesh resolution. Three different element sizes—**0.20 mm, 0.15 mm, and 0.10 mm**—were considered, and the resulting velocity profiles were compared.
 
-The grid independence test results demonstrate that the selected mesh resolution provides converged solutions with minimal numerical errors:
+The results showed only minor variations between the different mesh resolutions, indicating that further mesh refinement had a limited effect on the predicted solution. Based on this assessment, the selected mesh provides a suitable balance between **solution accuracy and computational efficiency**.
 
-![Grid Independence Test — 75% Stenosis](images/Grid_independence_Test_75%_Stenosis.png)
+The same meshing strategy was subsequently applied to the **90% stenosed artery**, maintaining consistency in mesh quality and numerical treatment across the different stenosis severities.
 
-This validation confirms the robustness of the meshing approach used for the hemodynamic simulations across varying degrees of arterial stenosis.
+![Grid Independence Test — 75% Stenosis](images/Grid_independence_Test_75_Stenosis.png)
+
+This grid independence assessment supports the reliability of the numerical results presented for the arterial stenosis simulations.
+
 
 ## Note
 
