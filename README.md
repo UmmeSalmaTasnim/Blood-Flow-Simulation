@@ -6,7 +6,7 @@ This project presents selected computational fluid dynamics (CFD) visualizations
 
 ## Motivation
 
-**Arterial stenosis** is the narrowing of an artery that restricts blood flow and alters the normal hemodynamic behavior of blood. In this study, an **axisymmetric artery** is considered to investigate blood flow characteristics under severe stenotic conditions.
+**Arterial stenosis** is the narrowing of an artery that restricts blood flow and alters the normal hemodynamic behavior of blood. In this study, an **axisymmetric artery** is considered to investigate the hemodynamic changes induced by severe stenosis.
 
 ## Purpose
 
@@ -106,10 +106,14 @@ These CFD visualizations demonstrate the complex hemodynamic environment created
 
 ## Grid Independence Test
 
-A grid independence study was performed for a 75% stenosed artery to verify mesh convergence and ensure solution accuracy. The analysis examined velocity variations across three different element sizes: **0.10 mm**, **0.15 mm**, and **0.20 mm**. The results demonstrate that the variation in velocity is **negligible** across these mesh refinements, confirming that the selected mesh configuration is grid-independent and suitable for the hemodynamic analysis.
+A grid independence study was performed for a 75% stenosed artery to verify mesh convergence and ensure solution accuracy. The analysis examined velocity variations across three different element sizes to establish mesh-independent solutions. The **same meshing strategy** employed for the 75% stenosed artery has been successfully applied to the 90% stenosed artery case presented in this repository, ensuring consistent mesh quality and convergence criteria across different stenosis severities.
+
+The grid independence test results demonstrate that the selected mesh resolution provides converged solutions with minimal numerical errors:
 
 ![Grid Independence Test — 75% Stenosis](images/Grid_independence_Test_75%_Stenosis.png)
 
+This validation confirms the robustness of the meshing approach used for the hemodynamic simulations across varying degrees of arterial stenosis.
+
 ## Note
 
-This repository presents selected visualizations from an ongoing research project. Detailed quantitative results, comparative analyses, and other research findings are reserved for the associated publication.
+This repository presents selected visualizations from an ongoing research project. Detailed quantitative results, comparative analyses, and other research findings are reserved for the associated publications.
