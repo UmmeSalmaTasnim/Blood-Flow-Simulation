@@ -2,11 +2,11 @@
 
 ## Project Overview
 
-This project presents selected computational fluid dynamics (CFD) visualizations of pulsatile blood flow through a severely stenosed artery (90%). The simulation was performed using **ANSYS Fluent*[...]
+This project presents selected computational fluid dynamics (CFD) visualizations of pulsatile blood flow through a severely stenosed artery (90%). The simulation was performed using **ANSYS Fluent**.
 
 ## Motivation
 
-**Arterial stenosis** is the narrowing of an artery that restricts blood flow and alters the normal hemodynamic behavior of blood. In this study, an **axisymmetric artery** is considered to investi[...]
+**Arterial stenosis** is the narrowing of an artery that restricts blood flow and alters the normal hemodynamic behavior of blood. In this study, an **axisymmetric artery** is considered to investigate blood flow characteristics under severe stenotic conditions.
 
 ## Purpose
 
@@ -28,7 +28,7 @@ This project presents selected computational fluid dynamics (CFD) visualizations
 
 ### Artery Geometry
 
-The 3D model of the stenosed artery illustrating the 90% narrowing in the vessel lumen and the complete computational domain. The geometry captures the arterial structure with the stenotic constri[...]
+The 3D model of the stenosed artery illustrating the 90% narrowing in the vessel lumen and the complete computational domain. The geometry captures the arterial structure with the stenotic constriction.
 
 ![Artery Geometry — 90% Stenosis](images/Artery_Geometry.png)
 
@@ -106,22 +106,10 @@ These CFD visualizations demonstrate the complex hemodynamic environment created
 
 ## Grid Independence Test
 
-A grid independence (mesh convergence) test was performed to verify that the computed velocity field is insensitive to further mesh refinement. The attached image `images/Grid_independence_Test_75%_Stenosis.png` shows the comparison of velocity results between the coarse and fine meshes for a 75% stenosed artery. The same mesh design and refinement strategy were applied to the 90% stenosis case presented in this repository.
-
-Summary (please replace placeholders with the measured values from your convergence study):
-
-- Reference case: 75% stenosis (same mesh strategy applied to 90% case).
-- Sampling location and phase: centerline velocity at peak systole (replace if different).
-- Mesh element counts: coarse = <N_coarse> elements, fine = <N_fine> elements.
-- Maximum relative difference in peak velocity between coarse and fine meshes: <X %>.
-- Mean L2-norm difference across sampled points: <Y> (units: m/s).
-
-Because the measured differences are negligible (maximum relative difference < <X %>), the selected mesh configuration is considered grid-independent for the presented simulations.
-
-Figure: Grid independence test — comparison of velocity profiles (coarse vs. fine mesh) for 75% stenosis. Velocity sampled along the centerline at peak systole. Blue: coarse mesh; Red: fine mesh. Units: m/s.
+A grid independence study was performed for a 75% stenosed artery to verify mesh convergence and ensure solution accuracy. The analysis examined velocity variations across three different element sizes: **0.10 mm**, **0.15 mm**, and **0.20 mm**. The results demonstrate that the variation in velocity is **negligible** across these mesh refinements, confirming that the selected mesh configuration is grid-independent and suitable for the hemodynamic analysis.
 
 ![Grid Independence Test — 75% Stenosis](images/Grid_independence_Test_75%_Stenosis.png)
 
 ## Note
 
-This repository presents selected visualizations from an ongoing research project. Detailed quantitative results, comparative analyses, and other research findings are reserved for the associated publ[...]
+This repository presents selected visualizations from an ongoing research project. Detailed quantitative results, comparative analyses, and other research findings are reserved for the associated publication.
