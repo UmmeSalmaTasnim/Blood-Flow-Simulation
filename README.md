@@ -43,7 +43,7 @@ Arterial stenosis (narrowing of the vessel lumen) substantially alters local hem
 
 ### Artery Geometry
 
-The 3D model represents an axisymmetric artery with a localized stenotic constriction (90% area reduction at the stenosis neck). The geometry and computational domain are provided in the `geometry/` folder and visualized below.
+The 3D model represents an axisymmetric artery with a localized stenotic constriction (90% area reduction at the stenosis neck).
 
 ![Artery Geometry — 90% Stenosis](images/Artery_Geometry.png)
 
