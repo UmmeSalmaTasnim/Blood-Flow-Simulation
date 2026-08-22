@@ -15,9 +15,8 @@ This repository contains computational fluid dynamics (CFD) visualizations and s
 - [Key Hemodynamic Findings](#key-hemodynamic-findings)
 - [Grid Independence Test](#grid-independence-test)
 - [Clinical Significance](#clinical-significance)
-- [Notes & Contact](#notes--contact)
-
----
+- [Research Note & Data Availability](#research-note--data-availability)
+--
 
 ## Motivation & Purpose
 
@@ -153,7 +152,7 @@ Observations:
 
 ## Grid Independence Test
 
-A grid independence study was conducted on a 75% stenosis case using three mesh sizes (element sizes: 0.20 mm, 0.15 mm, and a locally refined 0.10–0.05 mm). Differences in global indicators (pressure drop and peak WSS) were minor, supporting the chosen mesh strategy. The same meshing approach was applied to the 90% stenosis case.
+A grid independence study was conducted on a 75% stenosis case using three mesh sizes (element sizes: 0.20 mm, 0.15 mm, and a locally refined 0.05 mm). Differences in peak velocities were less than 2%, confirming the mesh convergence. The same meshing approach was applied to the 90% stenosis case.
 
 ![Grid Independence Test — 75% Stenosis](images/Grid_independence_Test_75_Stenosis.png)
 
@@ -170,12 +169,9 @@ The visualizations and analyses included here are useful for:
 
 ---
 
-## Notes & Contact
 
-This repository presents selected visualizations from ongoing research. Detailed quantitative tables, simulation scripts, and raw Fluent case/results files are not included here but can be provided on request.
+## Research Note & Data Availability
 
-Please open an issue or contact the repository owner: @UmmeSalmaTasnim.
+This repository contains a selected set of simulation visual outputs from ongoing research. Complete quantitative datasets, full simulation files, and additional results are currently reserved for upcoming publication and will be released following peer review.
 
----
 
-License: CC BY-NC (see LICENSE file if provided)
