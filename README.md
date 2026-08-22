@@ -16,7 +16,6 @@ This repository contains computational fluid dynamics (CFD) visualizations and s
 - [Grid Independence Test](#grid-independence-test)
 - [Clinical Significance](#clinical-significance)
 - [Research Note & Data Availability](#research-note--data-availability)
---
 
 ## Motivation & Purpose
 
